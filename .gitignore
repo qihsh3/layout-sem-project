@@ -1,0 +1,24 @@
+# Ignore everything by default, allow source/docs and their directory structure.
+*
+!*/
+!*.py
+!*.md
+!LICENSE
+!requirements.txt
+!.gitignore
+# Never include caches, local environments, data, model artifacts, or logs.
+**/__pycache__/
+**/.venv/
+**/venv/
+**/.env*
+**/.DS_Store
+**/*.ipynb
+**/*.pyc
+/data/
+/datasets/
+/inputs/
+/outputs/
+/results/
+/checkpoints/
+/weights/
+/logs/

@@ -1,0 +1,12 @@
+# Entry-point dependencies; not a locked or fully validated training environment.
+numpy
+Pillow
+opencv-python
+torch
+torchvision
+PyYAML
+omegaconf
+einops
+tqdm
+scipy
+# Optional upstream branches may require additional dependencies or checkpoints.
